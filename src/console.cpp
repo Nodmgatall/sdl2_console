@@ -1,4 +1,4 @@
-#include "console_main.hpp"
+#include "console.hpp"
 Console::add_command(std::function < void(std::vector<double>) command_func,
                      std::string command_name) {
     if (m_command_map.find(command_name) == m_command_map.end()) {
